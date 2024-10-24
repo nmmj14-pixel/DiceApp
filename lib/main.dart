@@ -67,7 +67,7 @@ class _DicePageState extends State<DicePage> {
             ),
           ],
         ),
-        const SizedBox(height: 20), // Space between dice and text
+        const SizedBox(height: 20),
         Text(
           resultMessage,
           style: const TextStyle(
