@@ -86,7 +86,6 @@ class _DicePageState extends State<DicePage> {
 
       int totalRoll = left + right;
 
-      // Generate the result message based on the dice roll comparison
       if (left > right) {
         resultMessage = 'The total roll is $totalRoll. Left dice rolls higher.';
       } else if (right > left) {
